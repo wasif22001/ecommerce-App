@@ -10,4 +10,8 @@ public class ItemService {
     public List<String> getItems() {
         return List.of("Laptop", "Mouse", "Keyboard", "Head phones");
     }
+
+    public String getItemById(int itemId) {
+        return "Laptop";
+    }
 }
