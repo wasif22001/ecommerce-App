@@ -10,4 +10,8 @@ public class UsersService {
     public List<String> getUsers() {
         return List.of("Tom", "Jerry", "Spike");
     }
+
+    public String getUserById(int id){
+        return "Tom";
+    }
 }
