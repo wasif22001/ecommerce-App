@@ -14,4 +14,8 @@ public class UsersService {
     public String getUserById(int id){
         return "Tom";
     }
+
+    public void updateUser(String user){
+        System.out.println("user is updated!");
+    }
 }
